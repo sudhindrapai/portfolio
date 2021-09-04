@@ -1,0 +1,29 @@
+.ProjectName{
+    font-family: var(--font-Roboto-Regular);
+    font-size: 22px;
+    color: var(--color-text-primary);
+    padding: 10px 0 3px 0;
+}
+
+.ProjectNameUnderLine{
+    border-bottom: 2px solid var(--color-transparent);
+    width: 70%;
+}
+
+.ProjectImage img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0 10px 0;
+    text-align: justify;
+    word-break: keep-all;
+}
+
+.Description{
+    margin-top: 10px;
+    font-family: var(--font-Roboto-Regular);
+    font-size: 14px;
+    color: var(--color-text-primary);
+    letter-spacing: 1px;
+    line-height: 23px;
+}

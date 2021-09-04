@@ -1,0 +1,56 @@
+.Container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.Label{
+    font-size: 12px;
+    font-family: var(--font-Roboto-Medium);
+    padding: 0 15px 0 0;
+    width: 15%;
+}
+
+.ProgressBarContainer{
+    box-sizing: border-box;
+    height: 20px;
+    background-color: var(--color-text-secondory);
+    position: relative;
+    border-radius: 2px;
+    width: 85%;
+}
+
+.PercentageValue{
+    background-color: var(--color-danger);
+    height: 20px;
+    position: absolute;
+    top:0;
+    border-top-left-radius:2px;
+    border-bottom-left-radius: 2px;
+}
+
+.SkillPercentage{
+    padding-left: 4px;
+    font-family: var(--font-Roboto-Light);
+    color: var(--color-danger);
+}
+
+@media screen and (max-width: 768px){
+    .Label{
+        width: 26%;
+    }
+    .ProgressBarContainer{
+        width: 74%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .Label{
+        width: 35%;
+    }
+    .ProgressBarContainer{
+        width: 65%;
+    }
+}

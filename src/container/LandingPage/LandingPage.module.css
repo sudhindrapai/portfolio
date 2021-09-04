@@ -1,0 +1,60 @@
+.Container{
+    width: 100vw;
+    height: calc(100vh - 65px);
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.Title{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-Roboto-Regular);
+    font-size: 55px;
+    color: var(--color-white);
+}
+
+.SpecialName{
+    font-size: 58px;
+    color: var(--color-danger);
+    font-family: var(--font-Roboto-Medium);
+}
+
+@media screen and (max-width: 768px){
+    .Title{
+        font-size: 45px;
+    }
+    .SpecialName{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 582px){
+    .Title{
+        font-size: 35px;
+    }
+    .SpecialName{
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 484px){
+    .Title{
+        font-size: 25px;
+    }
+    .SpecialName{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .Title{
+        font-size: 20px;
+    }
+    .SpecialName{
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,112 @@
+.AboutBulletPointsContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Points{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title{
+    font-family: var(--font-Roboto-Regular);
+    font-size: 28px;
+    color: var(--color-text-primary);
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+.SubTitle{
+    font-family: var(--font-Roboto-Light);
+    font-size: 18px;
+    color: var(--color-text-primary);
+    padding: 0 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.PhotoTitle{
+    font-family: var(--font-Roboto-Medium);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.PhotoSubTitle{
+    font-family: var(--font-Roboto-Light);
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--color-text-primary);
+    padding: 0 15px;
+}
+
+.PhotoSubTitle a{
+    text-decoration: none;
+}
+
+.PhotoAndDetail{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0 40px 0;
+}
+
+.PhotoContainer{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.PhotoContainer img{
+    height: 250px;
+    object-fit: contain;
+}
+
+.SkillDetailsContainer{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 59%;
+}
+
+.SkillDetail{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px 0 0;
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 1149px){
+    .AboutBulletPointsContainer{
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+
+    .Points{
+        flex-basis: 50%;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .Title{
+        font-size: 24px;
+    }
+    .SubTitle{
+        line-height: 25px;
+    }
+    .PhotoContainer{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .SkillDetailsContainer{
+        padding-left: 15px;
+        flex-basis: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+button:disabled{
+    opacity: 0.8;
+    cursor: not-allowed !important;
+}
+.Btn{
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+}
+
+/* button sizes classes starts here */
+.BtnSm{
+    font-size: 12px;
+    padding: 4px;
+}
+
+.BtnMd{
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.BtnLg{
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.BtnJustified{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 16px !important;
+    border: none !important;
+}
+
+@media screen and (max-width: 425px){
+    .BtnJustified{
+        font-size: 14px;
+        padding: 7px 14px;
+    }
+}
+
+/* button sizes classes ends here */
+
+.BtnBorderWhite{
+    background-color: var(--color-transparent);
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    font-family: var(--font-Roboto-Regular);
+}
+

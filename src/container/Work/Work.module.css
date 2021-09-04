@@ -1,0 +1,51 @@
+.Container{
+    width: 100%;
+    box-sizing: border-box;
+}
+.ProjectContainer{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px 0;
+    padding: 0 15px;
+    flex: 1;
+}
+
+.ProjectContainer .ProjectDiv{
+    padding: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 30%;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+    /*border-bottom: 3px solid var(--color-transparent);*/
+    margin:10px;
+}
+
+.ProjectDiv:hover{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid var(--color-danger);
+}
+
+@media screen and (max-width: 768px){
+    .ProjectContainer{
+        padding: 0;
+    }
+    .ProjectContainer .ProjectDiv{
+        flex-basis: 45%;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid var(--color-danger);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .ProjectContainer{
+        padding: 0 15px;
+    }
+    .ProjectContainer .ProjectDiv{
+        flex-basis: 100%;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid var(--color-danger);
+    }
+}

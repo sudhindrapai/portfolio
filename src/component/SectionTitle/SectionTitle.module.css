@@ -1,0 +1,28 @@
+.Container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.SectionTitle{
+    letter-spacing: 1.4px;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: var(--font-Roboto-Bold);
+    color: var(--color-text-primary);
+}
+
+.Border{
+    height: 5px;
+    width: 50px;
+    border-bottom: 4px solid var(--color-danger);
+}
+
+@media screen and (max-width: 425px){
+    .SectionTitle{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --color-text-primary:#000000;
+  --color-white: #ffffff;
+  --color-black:#000000;
+  --color-danger: #f36;
+  --color-text-secondory:#cccccc;
+  --color-transparent:transparent;
+
+  --font-Roboto-Black: Roboto-Black, sans-serif, serif;
+  --font-Roboto-BlackItalic: Roboto-BlackItalic, sans-serif, serif;
+  --font-Roboto-Bold: Roboto-Bold, sans-serif, serif;
+  --font-Roboto-Italic: Roboto-Italic, sans-serif, serif;
+  --font-Roboto-Light: Roboto-Light, sans-serif, serif;
+  --font-Roboto-LightItalic: Roboto-LightItalic, sans-serif, serif;
+  --font-Roboto-Medium: Roboto-Medium, sans-serif, serif;
+  --font-Roboto-MediumItalic: Roboto-MediumItalic, sans-serif, serif;
+  --font-Roboto-Regular: Roboto-Regular, sans-serif, serif;
+  --font-Roboto-Thin: Roboto-Thin, sans-serif, serif;
+  --font-Roboto-ThinItalic:Roboto-ThinItalic, sans-serif, serif;
+}
+
+@font-face {
+  font-family: Roboto-Black;
+  font-style: normal;
+  src: url("./fonts/Roboto-Black.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-BlackItalic;
+  font-style: normal;
+  src: url("./fonts/Roboto-BlackItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  font-style: normal;
+  src: url("./fonts/Roboto-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Italic;
+  font-style: normal;
+  src: url("./fonts/Roboto-Italic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  font-style: normal;
+  src: url("./fonts/Roboto-Light.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  font-style: normal;
+  src: url("./fonts/Roboto-LightItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  font-style: normal;
+  src: url("./fonts/Roboto-Medium.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-MediumItalic;
+  font-style: normal;
+  src: url("./fonts/Roboto-MediumItalic.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  font-style: normal;
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  font-style: normal;
+  src: url("./fonts/Roboto-Thin.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto-ThinItalic;
+  font-style: normal;
+  src: url("./fonts/Roboto-ThinItalic.ttf");
+  font-display: swap;
+}
