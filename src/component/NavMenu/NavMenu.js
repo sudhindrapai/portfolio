@@ -26,6 +26,12 @@ class NavMenu extends Component{
                 redirectionPath:"/work",
                 isSelected:false,
                 id:"navItem_3"
+            },
+            {
+                label: "Curriculum Vitae (CV)",
+                redirectionPath:"/cv",
+                isSelected:false,
+                id:"navItem_4"
             }
         ]
     };
